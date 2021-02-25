@@ -1,0 +1,15 @@
+.cover__background {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/dmitrii-vaccinium.jpg);
+  max-width: 1184px;
+  height: 740px;
+  text-decoration: none;
+  color: white;
+}
+
