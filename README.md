@@ -1,6 +1,6 @@
 # Проект 3: Путешествие по России
 
-![Иллюстрация к проекту](https://github.com/Loudisence/russian-travel/images/__image.jpg)
+![Иллюстрация к проекту](images/kalegin-michail-179870-unsplash.jpg)
 
 https://loudisence.github.io/russian-travel/.
 
