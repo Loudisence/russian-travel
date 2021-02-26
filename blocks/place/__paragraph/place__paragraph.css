@@ -1,10 +1,31 @@
 .place__paragraph {
-  width: 464px;
+  width: 484px;
   font-style: normal;
-  font-weight: 1;
   font-size: 18px;
   line-height: 29px;
   margin-top: 0;
   margin-bottom: 26px;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraph {
+    width: 456px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 16px;
+    width: 288px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

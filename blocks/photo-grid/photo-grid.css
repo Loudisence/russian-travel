@@ -6,3 +6,32 @@
     width: 1184px;
     height: 671px;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 14px;
+    max-width: 928px;
+    height: 942px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    margin: 88px 24px;
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 288px;
+    height: 2724px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

@@ -2,9 +2,17 @@
   width: 186px;
   height: 16px;
   font-style: normal;
-  font-weight: 1;
+  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   text-align: right;
   margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__copyright {
+    text-align: start;
+    height: 16px;
+    line-height: 14px;
+  }
 }
