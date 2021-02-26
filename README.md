@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+![Иллюстрация к проекту](https://github.com/Loudisence/russian-travel/images/__image.jpg)
+
 https://loudisence.github.io/russian-travel/.
 
 
