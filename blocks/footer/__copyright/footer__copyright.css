@@ -11,7 +11,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__copyright {
-    text-align: start;
+    text-align: end;
     height: 16px;
     line-height: 14px;
   }
