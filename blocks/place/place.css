@@ -24,6 +24,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .place {
+    max-width: 320px;
     display: grid;
     grid-template-areas:
     "title"
@@ -32,6 +33,6 @@
     "paragraphs";
     justify-items: center;
     margin: 0 auto 50px;
-    gap: 32px;
+    gap: 32px 0;
   }
 }
