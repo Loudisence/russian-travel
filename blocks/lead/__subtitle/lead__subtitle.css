@@ -1,7 +1,6 @@
 .lead__subtitle {
   margin: 32px auto 0;
   width: 640px;
-  height: 72px;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -15,7 +14,6 @@
   .lead__subtitle {
     margin: 16px auto 0;
     max-width: 288px;
-    max-height: 40px;
     font-size: 16px;
     line-height: 20px;
   }
